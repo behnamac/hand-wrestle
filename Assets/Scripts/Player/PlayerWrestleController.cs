@@ -88,7 +88,7 @@ namespace Player
             if (currentStamina >= currentMaxStamina)
             {
                 LevelManager.Instance.LevelFail();
-                ragdoll.ActiveRagdoll();
+                ragdoll.ActivateRagdoll();
                 canWrestle = false;
             }
 

@@ -44,7 +44,7 @@ namespace Enemy
 
         public void ActiveRagdoll()
         {
-            ragdoll.ActiveRagdoll();
+            ragdoll.ActivateRagdoll();
         }
     }
 }
